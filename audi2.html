@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the world of Audi cars including SUVs, Sports Cars, Sedans, Hatchbacks, and Electric Vehicles.">
+    <title>Audi Cars</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://spn-sta.spinny.com/blog/20230612165825/Audi-A6.webp?compress=true&quality=80&w=1024&dpr=2.6') no-repeat center center fixed;
+            background-size: cover;
+            filter: brightness(80%); /* Adjust brightness here */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start; /* Adjust logo alignment */
+            padding: 20px;
+            background: black; /* Black background */
+        }
+        .header img {
+            width: 150px;
+            margin-right: 20px; /* Move the logo to the leftmost side */
+        }
+        .header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.5em;
+            font-weight: 600;
+            margin: 0; /* Remove margin to center align */
+            color: white; /* Ensure font color is white */
+        }
+        .container {
+            display: flex;
+            flex-direction: column; /* Align content in a vertical layout */
+            align-items: center; /* Center align content horizontally */
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            box-sizing: border-box;
+            width: 100%;
+        }
+        .brand-value {
+            text-align: center;
+            margin-bottom: 40px; /* Add space between sections */
+        }
+        .brand-value h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2em;
+            font-weight: 600;
+            margin-top: 0;
+            color: red; /* Change font color to yellow */
+        }
+        .brand-value p {
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+        .features {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: flex-start;
+            margin-top: 40px; /* Add space between sections */
+        }
+        .left, .right {
+            width: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .left h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2em;
+            color: red; /* Change font color to yellow */
+        }
+        .left ul {
+            list-style: none;
+            padding: 0;
+            font-size: 1.1em;
+            font-weight: 400;
+            text-align: left;
+            margin: 20px 0;
+        }
+        .left li {
+            margin: 10px 0; /* Add 1 line gap between items */
+        }
+        .right .categories {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .right .category {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 15px; /* Increased padding for better spacing */
+            transition: background 0.3s;
+        }
+        .right .category:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        .right .category img {
+            width: 150px; /* Increased icon size */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 20px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .right .category a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.4em;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        .right .category a:hover {
+            text-decoration: underline;
+            color: #ffcc00;
+        }
+        .right .description {
+            margin-top: 5px;
+            font-size: 1em;
+            color: #ddd;
+            text-align: center; /* Center align description */
+        }
+        .footer {
+            background: black; /* Black background */
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #bbb;
+            margin-top: auto; /* Push footer to the bottom */
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .footer p {
+            margin: 5px 0;
+        }
+        .footer .content {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://i.pinimg.com/736x/4f/a8/2d/4fa82dc7e581e242809ccf28da846ab8.jpg" alt="Audi Logo">
+        <h1>Welcome to Audi Cars</h1>
+    </div>
+    <div class="container">
+        <div class="brand-value">
+            <h2>Audi Stands for</h2>
+            <p>Audi stands for innovation, quality, and luxury. With a commitment to cutting-edge technology and meticulous craftsmanship, Audi delivers exceptional vehicles that redefine automotive standards.</p>
+        </div>
+        <div class="features">
+            <div class="left">
+                <h2>Explore the Audi's Features</h2>
+                <ul>
+                    <li>       @ Quattro All-Wheel Drive System</li>
+                    <li>                            </li>
+                    <li>       @ Advanced MMI® (Multi Media Interface) Technology</li>
+                    <li>                             </li>
+                    <li>       @ Progressive Design</li>
+                    <li>                            </li>
+                    <li>       @ High-Performance Engines</li>
+                    <li>                             </li>
+                    <li>       @ Exceptional Craftsmanship and Materials</li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="categories">
+                    <div class="category">
+                        <img src="https://www.vehiclehistory.com/uploads/Small-6926-2020AudiQ7-e1620762552526.jpg" alt="Audi SUV">
+                        <div>
+                            <a href="#">SUV</a>
+                            <div class="description">Audi SUVs combine versatility, advanced technology, and luxury in one package.</div>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQPJ3jYtg89eolZAWulELVYMCRGhNw9HJHNA&s" alt="Audi Sports Car">
+                        <div>
+                            <a href="#">Sports Car</a>
+                            <div class="description">Audi sports cars deliver thrilling performance and dynamic driving experiences.</div>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Audi/A8-L/10566/1689595737050/front-left-side-47.jpg" alt="Audi Sedan">
+                        <div>
+                            <a href="#">Sedan</a>
+                            <div class="description">Audi sedans offer a balance of luxury, comfort, and cutting-edge technology.</div>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <img src="https://i.pinimg.com/originals/d4/f5/c3/d4f5c3478e0bde01b7d288630cccae89.jpg" alt="Audi Hatchback">
+                        <div>
+                            <a href="#">Hatchback</a>
+                            <div class="description">Audi hatchbacks are stylish, versatile, and packed with innovative features.</div>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Audi/e-tron-GT/8340/1678098767884/front-left-side-47.jpg" alt="Audi Electric">
+                        <div>
+                            <a href="#">Electric</a>
+                            <div class="description">Audi electric vehicles combine sustainability with high performance and luxury.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="content">
+            <p>Contact us: info@audi.com | +1 800 555 5555</p>
+            <p>© 2024 Audi. All rights reserved.</p>
+            <p>
+    </div>
+</body>
+</html>
